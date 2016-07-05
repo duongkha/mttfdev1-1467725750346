@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: mttfdev1
+  host: mttfdev1
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-mttf
